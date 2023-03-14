@@ -25,7 +25,7 @@ Essa documentação tem como objetivo identificar o acesso a tela de Status, e c
 *Informações de como acessar a tela de Status*
 
 ### Entrar com login
-Acesse seu navegador e entre no link [portal-stream.semeq.com](portal-stream.semeq.com). Ao entrar no link, um login será necessário para acessar o menu do Portal, solicitando usuário e senha. Caso tenha esquecido sua senha, clique em "esqueceu a senha" abaixo do campo de senha e siga os passos.
+Acesse seu navegador e entre no link [portal-stream.semeq.com](https://portal-stream.semeq.com). Ao entrar no link, um login será necessário para acessar o menu do Portal, solicitando usuário e senha. Caso tenha esquecido sua senha, clique em "esqueceu a senha" abaixo do campo de senha e siga os passos.
 
 > ⚠️: Não é possível criar uma conta a partir desta tela.
 
