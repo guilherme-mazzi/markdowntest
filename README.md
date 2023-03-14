@@ -14,9 +14,9 @@ Essa documentação tem como objetivo identificar o acesso a tela de Status, e c
 
 #### 🚀[Informações de Acesso](#entrar-com-login) 
 
-#### 🔨[Funcionamento](#status-do-equipamento)
+#### 🔨[Funcionamento](#como-funciona)
 
-#### 🖥️[Para Desenvolvedores](#for-developers)
+#### 🖥️[Para Desenvolvedores](#explicação-do-código)
 
 
 ---
