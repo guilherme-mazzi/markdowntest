@@ -174,20 +174,20 @@ Ao clicar na máquina, a tabela automaticamente se atualiza com os dados apresen
 
 ### Colunas
 Uma descrição de cada coluna apresentada na tabela:
->
->- __Área__ - Nome da área onde o equipamento se encontra.
->- __Setor__ - Nome do setor onde o equipamento se encontra.
->- __Conjunto__ - Nome e tag do conjunto (ou máquina) em que o equipamento faz parte.
->- __Equipamento__ - Nome e tag do equipamento.
->- __Data__ - Última data medida do equipamento.
->- __Dispositivo__ - Serial Number do dispositivo.
->- __Direção__ - Eixo de medição do dispositivo(X, Y, Z).
->- __Versão__ - Versão do dispositivo.
->- __Gateway__ - Serial Number do gateway que transmitiu esta medida.
->- __Bateria__ - A porcentagem de bateria do sensor.
->- __Sinal__ - Nível do sinal BLE em porcentagem do dispositivo.
->- __Temperatura__ - Temperatura medida pelo dispositivo em Celsius.
->- __Status__ - Cor do estado do equipamento.
+
+- __Área__ - Nome da área onde o equipamento se encontra.
+- __Setor__ - Nome do setor onde o equipamento se encontra.
+- __Conjunto__ - Nome e tag do conjunto (ou máquina) em que o equipamento faz parte.
+- __Equipamento__ - Nome e tag do equipamento.
+- __Data__ - Última data medida do equipamento.
+- __Dispositivo__ - Serial Number do dispositivo.
+- __Direção__ - Eixo de medição do dispositivo(X, Y, Z).
+- __Versão__ - Versão do dispositivo.
+- __Gateway__ - Serial Number do gateway que transmitiu esta medida.
+- __Bateria__ - A porcentagem de bateria do sensor.
+- __Sinal__ - Nível do sinal BLE em porcentagem do dispositivo.
+- __Temperatura__ - Temperatura medida pelo dispositivo em Celsius.
+- __Status__ - Cor do estado do equipamento.
 
 ### Botão para análise
 
