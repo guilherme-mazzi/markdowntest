@@ -253,19 +253,19 @@ Pasta *__monitoring__* representa o App como um todo. Tudo da página (exceto ar
 
 1. __migrations:__ Migrações dos modelos criados em ```models.py``` para o banco de dados.
 
-    ![](/imgs/migrations.jpg "Text to show on mouseover")
+    ![](/imgs/migrations.jpg "Text to show on mouseover")<br>
     - ```0001_initial .py```**:** Migração dos modelos para o banco de dados. Caso houvessem mais migrações, os números iniciais do nome do arquivo seriam outros.
 <br>
 
 2. __templates:__ Arquivos ```HTML``` do App são guardados aqui.
 
-![](/imgs/templates.jpg "Text to show on mouseover")
+![](/imgs/templates.jpg "Text to show on mouseover")<br>
     - ```monitor.html```**:** Cada arquivo ```HTML``` para cada função da página.
 <br>
 
 3. __tests:__ Arquivos para fazer os testes do App.
 
-![](/imgs/tests.jpg "Text to show on mouseover")
+![](/imgs/tests.jpg "Text to show on mouseover") <br>
     - ```test.py```**:** Arquivos que começam com "*__test__*" indicam um arquivo de teste em ```Python```.
 <br>
 
