@@ -246,7 +246,7 @@ Uma caixa de pesquisa também é disponibilizada acima da tabela. Qualquer infor
 
 ### Explicação do Código
 
-O código é escrito em Django. Por isso, tem a seguinte estrutura:
+O código é escrito em Django. Por isso, tem a seguinte estrutura:<br>
 Pasta *__monitoring__* representa o App como um todo. Tudo da página (exceto arquivos estáticos) estão aqui.
 
 ![](/imgs/cod-pasta.jpg "Text to show on mouseover")
