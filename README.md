@@ -248,6 +248,7 @@ Uma caixa de pesquisa também é disponibilizada acima da tabela. Qualquer infor
 
 O código é escrito em Django. Por isso, tem a seguinte estrutura:
 Pasta *__monitoring__* representa o App como um todo. Tudo da página (exceto arquivos estáticos) estão aqui.
+
 ![](/imgs/cod-pasta.jpg "Text to show on mouseover")
 
 1. __migrations:__ Migrações dos modelos criados em ```models.py``` para o banco de dados
