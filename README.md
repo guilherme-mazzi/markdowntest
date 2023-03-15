@@ -1,7 +1,7 @@
 👋 Bem vindo ao App de Status - Portal SEMEQ
 ===
 *Utilização, acesso e funcionamento da tela de Status do Portal SEMEQ*
-
+<br>
 
 ### Overview
 Essa documentação tem como objetivo identificar o acesso a tela de Status, e como utilizar a funcionalidade de visualização das informações de equipamentos, sensores e plantas.
@@ -12,17 +12,18 @@ Essa documentação tem como objetivo identificar o acesso a tela de Status, e c
 - Django 8.7.4 - <linkDoc>
 ```
 
-### 🚀[Informações de Acesso](#entrar-com-login) 
+### [🚀Informações de Acesso](#entrar-com-login) 
 
-### 🔨[Funcionamento](#como-funciona)
+### [🔨Funcionamento](#como-funciona)
 
-### 🖥️[Para Desenvolvedores](#explicação-do-código)
-
+### [🖥️Para Desenvolvedores](#explicação-do-código)
+<br>
 
 ---
 🚀 Como acessar
 ===
 *Informações de como acessar a tela de Status*
+<br>
 
 ### Entrar com login
 Acesse seu navegador e entre no link [portal-stream.semeq.com](https://portal-stream.semeq.com). Ao entrar no link, um login será necessário para acessar o menu do Portal, solicitando usuário e senha. Caso tenha esquecido sua senha, clique em "esqueceu a senha" abaixo do campo de senha e siga os passos.
@@ -41,12 +42,13 @@ Após seu login, a tela abaixo será exibida:
 Com seu usuário autenticado, o seguinte menu será exibido. Para acessar a tela de Status, clique em análise, localizado no menu do centro da tela, ou no cabeçalho acima da tela, indicados por setas no exemplo abaixo:
 
 ![Tela de login](/imgs/menu-sublinhado.jpg "Tela de Login")
-
+<br>
 
 ---
 💡 Como apresentar as análises
 ===
 *O que a tela apresenta e como exibir*
+<br>
 
 ### Como apresentar os dados
 Para apresentar os dados, primeiramente, precisará selecionar a corporação e a planta. Para isso, vá ao menu lateral na esquerda (caso o menu esteja encolhido, coloque o ponteiro do mouse na lateral, ou clique no ícone de três riscos no canto superior esquerdo), certifique-se que "Status" esteja em destaque, e selecione a corporação e a planta desejada.
@@ -71,17 +73,21 @@ Gráfico da planta em 4 níveis:
 Gráfico da planta em 3 níveis:
 ![](/imgs/graf-3niveis.jpg "Text to show on mouseover")
 
-### [Status do Equipamento](#status-do-equipamento)
+<br>
 
-### [Gráfico Tree Map](#gráfico-tree-map)
+---
 
-### [Tabela Grid](#tabela-grid)
+### [🔨Status do Equipamento](#status-do-equipamento)
 
+### [📊Gráfico Tree Map](#gráfico-tree-map)
+
+### [📅Tabela Grid](#tabela-grid)
 
 ---
 🔨 Status do Equipamento
 ===
 *Dados do estado dos equipamentos*
+<br>
 
 ### Como funciona
 Primeiro, os estados são diferentes baseados no serviço selecionado (telemetria, temperatura e vibração). Após escolher o serviço, os dados apresentados a esquerda da tela são as quantidades de equipamentos em cada estado, separados em alarme🔴, alerta🟡, normal🟢 e parado⚪. Também, o quantitativo de dispositivos com bateria baixa🟠 e sinal baixo🟣.
@@ -97,15 +103,16 @@ Primeiro, os estados são diferentes baseados no serviço selecionado (telemetri
 
 Para o equipamento ser definido como "parado", o sensor não deve emitir sinal nas últimas 24h.
 O estado de bateria baixa🟠 é identificado quando o dispositivo está com menos de 40% de bateria. Para sinal baixo🟣, o dispositivo precisa ter um nível de sinal inferior a 10%.
-
+<br>
 
 ---
 📊 Gráfico Tree Map
 ===
 *Agrupamento de equipamentos da planta e seus respectivos estados.*
+<br>
 
 ### Como funciona
-O gráfico é separado em um agrupamento de seções: **Planta** -> **Área** -> **Setor** -> **Máquina** -> **Equipamento**. A **planta** é o local onde os **equipamentos** estão situados (selecionado anteriormente), fazendo parte de uma corporação. Nome da **planta** é definido pela localização. Tudo estará dentro desta seção, e é identificada no topo do gráfico em preto.
+O gráfico é separado em um agrupamento de seções: **Planta** -> **Área** -> **Setor** -> **Máquina** -> **Equipamento**. A **planta** é o local onde os **equipamentos** estão situados ([selecionado anteriormente](#como-apresentar-os-dados)), fazendo parte de uma corporação. Nome da **planta** é definido pela localização. Tudo estará dentro desta seção, e é identificada no topo do gráfico em preto.
 
 > Dica: Para expandir o bloco, basta clicar no nome ao topo da seção. Para retrair o bloco, clique na seção desejada no topo do gráfico ou novamente no nome. Exemplo abaixo.
 >
@@ -123,7 +130,7 @@ No interno do **setor**, temos um agrupamento de **máquinas** (ou **coleções*
 ### Leitura e interpretação dos dados do gráfico
 Em uma visão geral, conseguimos identificar cores em cada seção apresentada, apenas com exceção da **planta** no topo do gráfico.
 
-De dentro para fora, temos os **equipamentos**, cada cor representa o status do **equipamento** (explicado acima em [link]). Para o conjunto que agrupa essas informações (no caso, a **máquina**), a cor é representada por uma média dos estados contidos na seção.
+De dentro para fora, temos os **equipamentos**, cada cor representa o status do **equipamento** ([explicado acima](#como-funciona)). Para o conjunto que agrupa essas informações (no caso, a **máquina**), a cor é representada por uma média dos estados contidos na seção.
 
 A coloração da **máquina** é representada por uma média dos status dos **equipamentos**. Se a maioria dos **equipamentos** estiverem em estado "alerta🔴", a coloração do bloco da **máquina** se transforma em um tom vermelho. Em caso de maioria em estado "normal🟢", a coloração é verde e, em caso de "parado⚪", a coloração é cinza.
 
@@ -140,6 +147,7 @@ A partir desses dados, o analista pode decidir as prioridades de onde serão as 
 📅 Tabela Grid
 ===
 *Descrição da tabela e dos dados apresentados*
+<br>
 
 ### Como funciona
 
@@ -192,6 +200,7 @@ Na última coluna do grid, um ícone é exibido em cada equipamento. Ao clicar n
 ❗ Funcionalidades Extras
 ===
 *Recursos extras do App de Status*
+<br>
 
 ### Print Screen
 
@@ -229,28 +238,47 @@ Uma caixa de pesquisa também é disponibilizada acima da tabela. Qualquer infor
 
 ![](/imgs/gifs/search-table.gif "Text to show on mouseover")
 
+
 ---
 🖥️ For Developers
 ===
+<br>
 
 ### Explicação do Código
 
 O código é escrito em Django. Por isso, tem a seguinte estrutura:
-
+Pasta *__monitoring__* representa o App como um todo. Tudo da página (exceto arquivos estáticos) estão aqui.
 ![](/imgs/cod-pasta.jpg "Text to show on mouseover")
 
-1. faz algo ai
-    - teste de bola:
-    - outro teste de bola:
-    - ![](/imgs/cod-pasta.jpg "Text to show on mouseover")
+1. __migrations:__ Migrações dos modelos criados em ```models.py``` para o banco de dados
+    ![](/imgs/migrations.jpg "Text to show on mouseover")
+    - ```0001_initial .py```**:** Migração dos modelos para o banco de dados. Caso houvessem mais migrações, os números iniciais do nome do arquivo seriam outros.
+<br>
 
-2. outra faz ai
-    - teste bola:
-    - outro teste de bola:
+2. __templates:__ Arquivos ```HTML``` do App são guardados aqui.
+![](/imgs/templates.jpg "Text to show on mouseover")
+    - ```monitor.html```**:** Cada arquivo ```HTML``` para cada função da página.
+<br>
 
+3. __tests:__ Arquivos para fazer os testes do App.
+![](/imgs/tests.jpg "Text to show on mouseover")
+    - ```test.py```**:** Arquivos que começam com "*__test__*" indicam um arquivo de teste em ```Python```.
+<br>
 
+4. ```__init__.py```**:** Arquivo para identificar a pasta como Módulo ```Django```. Não utilizado.
 
+5. ```admin.py```**:** Define os modelos para exibir na url ```portal-stream.semeq.com/admin```.Nenhum sendo exibido.
 
+6. ```apps.py```**:** Padrão ```Django```. Algumas configurações básicas do app. 
+
+7. ```models.py```**:** Modelos de dados para serem enviados ao banco de dados ou usados de base no código.
+
+8. ```urls.py```**:** Importando as ```views.py```, aqui define-se os caminhos para renderizar as *views*.
+
+9. ```utils.py```**:** Toda a lógica se encontra aqui. Funções para as funcionalidades e suas consultas ao banco de dados. Código em ```Python```
+
+10. ```views.py```**:** Define qual ```HTML``` renderiza e seu contexto (variáveis para se usar na página).
+<br>
 
 
 ### GitHub
