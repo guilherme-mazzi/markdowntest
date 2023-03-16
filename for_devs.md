@@ -51,6 +51,8 @@ Caso deseje conferir os códigos do Portal afim de tirar dúvidas, acesse o GitH
 
 ---
 
+### [👋Início](README.md)
+
 ### [🔨Status do Equipamento](status_equipamento.md)
 
 ### [📊Gráfico Tree Map](grafico_treemap.md)
