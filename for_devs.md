@@ -34,9 +34,9 @@ Pasta *__monitoring__* representa o App como um todo. Tudo da página (exceto ar
 
 8. ```urls.py```**:** Importando as ```views.py```, aqui define-se os caminhos para renderizar as *views*.
 
-9. ```utils.py```**:** Toda a lógica se encontra aqui. Funções para as funcionalidades e suas consultas ao banco de dados. Código em ```Python```
+9. ```utils.py```**:** Toda a lógica se encontra aqui. Funções para as funcionalidades e suas consultas ao banco de dados. Código em ```Python```.
 
-10. ```views.py```**:** Define qual ```HTML``` renderiza e seu contexto (variáveis para se usar na página).
+10. ```views.py```**:** Define qual arquivo ```HTML``` renderiza e seu contexto (variáveis para se usar na página).
 <br>
 
 
@@ -47,6 +47,7 @@ Caso deseje conferir os códigos do Portal afim de tirar dúvidas, acesse o GitH
 > https://github.com/semeqpd/portal_stream
 >
 > ⚠️: Necessário pedir a autorização para acessar os códigos no GitHub
+<br>
 
 
 ---
